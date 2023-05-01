@@ -1,0 +1,10 @@
+id INT PRIMARY KEY,
+    marca VARCHAR(50) NOT NULL,
+    modello VARCHAR(50) NOT NULL,
+    anno_produzione INT NOT NULL,
+    chilometraggio INT NOT NULL,
+    tipo_carburante VARCHAR(20) NOT NULL,
+    tipo_cambio VARCHAR(20) NOT NULL,
+    prezzo INT NOT NULL,
+    descrizione TEXT,
+    
